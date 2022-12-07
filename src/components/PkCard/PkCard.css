@@ -152,6 +152,6 @@
 
 .shiny {
     background: linear-gradient(-45deg, #00d9ff, #16fdd7, #04ff9b, #33ff00, #80ff00, 
-    #c3ff00, #d0ff00, #ffe100, #ff9100, #ff1100, #ff00aa, #ff00ea);
+    #c3ff00, #fff, #d0ff00, #ffe100, #ff9100, #ff1100, #ff00aa, #ff00ea);
     /* background: linear-gradient(-45deg, #fff3b3, #ffd700, #716000, #fff3b3, #ffd700, #716000); */
 }
