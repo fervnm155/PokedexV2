@@ -1,0 +1,72 @@
+/* colores
+#d9274b rojo principal
+#C20E31 rojo oscuro
+#16A4DB azul secundario
+#07698F azul oscuro
+#DBD116 amarillo */
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+.app {
+  text-align: center;
+  background: linear-gradient(to bottom, #d9274b, #cd3c59, #d9274b);
+  width: 100%;
+  height: 100%;
+  display: grid;
+  /* grid-template-columns: 80px 1fr 80px; */
+  grid-template-columns: 4% 90% 4%;
+  grid-template-rows: 100px 1fr 100px;
+}
+
+.pokedexTitle{
+  grid-column: 2/3;
+  font-family: 'Pokemon Solid', sans-serif;
+  font-size: 4.5rem;
+  font-weight: bolder;
+  color: rgb(255, 230, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 4px 0 blue, -4px 0 blue, 0 4px blue, 0 -4px blue,
+               4px 5px blue, -4px -5px blue, 4px -4px blue, -4px 4px blue;
+  -webkit-text-fill-color: rgb(255, 230, 0);
+  -webkit-text-stroke: 1px blue;
+  letter-spacing: 2px;
+}
+
+.main {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background: linear-gradient(-45deg, #16a3dbd4, #8ac4dbd4, #16a3dbd4);
+  display: grid;
+  grid-template-rows: 5rem 1fr;
+  padding: 1%;
+  border: 10px inset #b62240;
+}
+
+.pkList {
+  margin-top: 5%;
+}
+
+/* .circle{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  border-radius: 100%;
+  animation: moveToRight 5s linear infinite;
+}
+
+@keyframes moveToRight{
+  0%{
+    transform: translateX(0);
+  }
+  50%{
+    transform: translateX(500px) scale(2);
+    background: red;
+  }
+  100%{
+    transform: translateX(0);
+  }
+} */

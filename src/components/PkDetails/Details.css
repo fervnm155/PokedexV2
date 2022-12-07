@@ -1,0 +1,252 @@
+.pkCardDetails {
+    background: rgba(255, 255, 255, 0.501);
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3%;
+    max-width: 100%;
+    margin-bottom: 3%;
+}
+
+.detailsImg {
+    grid-column: 1/2;
+    background: linear-gradient(to bottom, #ffd700, white, #c0c0c0);
+    border-radius: 10px 0 0 10px;
+    max-height: 50rem;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.detailsImg > img{
+    max-width: 40%;
+    filter: drop-shadow(10px 2px 5px rgba(0, 0, 0, 0.64));
+}
+
+.data{
+    grid-column: 2/3;
+    background: rgb(230, 230, 230);
+    border-radius: 0 10px 10px 0;
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    padding: 2rem;
+    /* grid-template-rows: 15% 10% 75%; */
+}
+
+.pkName{
+    grid-column: 2/3;
+    /* grid-row: 1/2; */
+    color: black;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 3.2rem;
+}
+
+/* .typesBox{
+    grid-column: 2/3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+} */
+
+/* .detailsType{
+    border: 5px solid black;
+    text-transform: uppercase;
+    min-width: 8rem;
+    max-width: 8rem;
+    color: white;
+    border-radius: 10px;
+} */
+
+.detData{
+    grid-column: 2/3;
+    /* grid-row: 3/4; */
+    display: grid;
+    grid-template-columns: 70% 30%;
+    gap: 1.6rem;
+}
+
+.stats{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    background: rgb(0, 170, 255);
+    border-radius: 10px;
+}
+
+.statName{
+    grid-column: 1/2;
+    color: black;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background: rgb(105, 185, 255);
+    border-radius: 10px;
+}
+
+.statValue{
+    grid-column: 2/3;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+}
+
+.statUnder10{
+    background: rgb(184, 0, 0);
+    width: 5%;
+    border-radius: 10px;
+}
+
+.statUnder20{
+    background: rgb(184, 0, 0);
+    width: 10%;
+    border-radius: 10px;
+}
+
+.statUnder30{
+    background: rgb(184, 0, 0);
+    width: 15%;
+    border-radius: 10px;
+}
+
+.statUnder40{
+    background: rgb(184, 0, 0);
+    width: 20%;
+    border-radius: 10px;
+}
+
+.statUnder50{
+    background: rgb(184, 0, 0);
+    width: 30%;
+    border-radius: 10px;
+}
+
+.statUnder60{
+    background: rgb(216, 83, 0);
+    width: 40%;
+    border-radius: 10px;
+}
+
+.statUnder70{
+    background: rgb(210, 217, 0);
+    width: 50%;
+    border-radius: 10px;
+}
+
+.statUnder80{
+    background: rgb(120, 190, 0);
+    width: 60%;
+    border-radius: 10px;
+}
+
+.statUnder90{
+    background: rgb(61, 205, 0);
+    width: 70%;
+    border-radius: 10px;
+}
+
+.statUnder100{
+    background: rgb(6, 176, 0);
+    width: 80%;
+    border-radius: 10px;
+}
+
+.statUnder150{
+    background: rgb(4, 130, 0);
+    width: 90%;
+    border-radius: 10px;
+}
+
+.statUnder250{
+    background: linear-gradient(45deg, #ffd700, white, #ffd700, white, #ffd700, white, #ffd700);
+    width: 100%;
+    border-radius: 10px;
+}
+
+.piplupImg{
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    align-self: center;
+    justify-self: center;
+}
+
+/* .grassLabel{
+    background: linear-gradient(45deg, rgb(63, 144, 63), rgb(123, 145, 123), rgb(63, 144, 63));
+    border: 5px solid rgb(83, 190, 83);
+}
+.fireLabel{
+    background: linear-gradient(45deg, rgb(171, 0, 0), rgb(152, 121, 121), rgb(171, 0, 0));
+    border: 5px solid rgb(179, 5, 5);
+}
+.waterLabel{
+    background: linear-gradient(45deg, rgb(0, 118, 186), rgb(137, 160, 174), rgb(0, 118, 186));
+    border: 5px solid rgb(1, 128, 202);
+}
+.bugLabel{
+    background: linear-gradient(45deg, rgb(160, 206, 95), rgb(184, 202, 157), rgb(160, 206, 95));
+    border: 5px solid rgb(166, 215, 99);
+}
+.flyingLabel{
+    background: linear-gradient(45deg, rgb(87, 198, 203), rgb(161, 201, 203), rgb(87, 198, 203));
+    border: 5px solid rgb(97, 219, 226);
+}
+.fightingLabel{
+    background: linear-gradient(45deg, rgba(194, 52, 0, 0.913), rgba(189, 150, 136, 0.913), rgba(194, 52, 0, 0.913));
+    border: 5px solid rgba(213, 66, 12, 0.913);
+}
+.poisonLabel{
+    background: linear-gradient(45deg, rgb(97, 0, 187), rgb(145, 114, 175), rgb(97, 0, 187));
+    border: 5px solid rgb(105, 13, 191);
+}
+.electricLabel{
+    background: linear-gradient(45deg, rgb(207, 189, 49), rgb(208, 202, 158), rgb(207, 189, 49));
+    border: 5px solid rgb(225, 205, 53);
+}
+.groundLabel{
+    background: linear-gradient(45deg, rgb(213, 136, 2), rgb(191, 169, 131), rgb(213, 136, 2));
+    border: 5px solid rgb(225, 149, 18);
+}
+.rockLabel{
+    background: linear-gradient(45deg, rgb(151, 59, 2), rgb(153, 121, 101), rgb(151, 59, 2));
+    border: 5px solid rgb(179, 70, 2);
+}
+.iceLabel{
+    background: linear-gradient(45deg, rgb(87, 172, 174), rgb(162, 195, 195), rgb(87, 172, 174));
+    border: 5px solid rgb(71, 139, 140);
+}
+.ghostLabel{
+    background: linear-gradient(45deg, rgb(152, 75, 246), rgb(216, 191, 246), rgb(152, 75, 246));
+    border: 5px solid rgb(152, 75, 246);
+}
+.steelLabel{
+    background: linear-gradient(45deg, rgb(113, 113, 113), rgb(205, 205, 205), rgb(113, 113, 113));
+    border: 5px solid rgb(91, 91, 91);
+}
+.dragonLabel{
+    background: linear-gradient(45deg, rgb(123, 110, 202), rgb(169, 165, 195), rgb(123, 110, 202));
+    border: 5px solid rgb(74, 0, 164);
+}
+.darkLabel{
+    background: linear-gradient(45deg, rgb(0, 4, 77), rgb(178, 178, 178), rgb(0, 4, 77));
+    border: 5px solid rgb(10, 14, 73),;
+}
+.psychicLabel{
+    background: linear-gradient(45deg, rgb(186, 108, 215), rgb(204, 186, 210), rgb(186, 108, 215));
+    border: 5px solid rgb(162, 96, 186);
+}
+.fairyLabel{
+    background: linear-gradient(45deg, rgb(202, 94, 217), rgb(209, 180, 213), rgb(202, 94, 217));
+    border: 5px solid rgb(181, 87, 194);
+}.normalLabel{
+    background: linear-gradient(45deg, rgb(156, 156, 156), rgb(220, 220, 220), rgb(156, 156, 156));
+    border: 5px solid rgb(131, 131, 131);
+} */

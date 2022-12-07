@@ -1,0 +1,88 @@
+.typesBox{
+  grid-column: 2/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+}
+
+.detailsType{
+  border: 5px solid black;
+  text-transform: uppercase;
+  min-width: 8rem;
+  max-width: 8rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.grassLabel{
+  background: linear-gradient(45deg, #77cc55, #aeff8f, #77cc55);
+  border: 5px solid #61a347;
+}
+.fireLabel{
+  background: linear-gradient(45deg, #ff4422, #ff9481, #ff4422);
+  border: 5px solid #bd341b;
+}
+.waterLabel{
+  background: linear-gradient(45deg, #3399ff, #83bdf6, #3399ff);
+  border: 5px solid #3399ff;
+}
+.bugLabel{
+  background: linear-gradient(45deg, #aabb22, #d1dd75, #aabb22);
+  border: 5px solid #86941d;
+}
+.flyingLabel{
+  background: linear-gradient(45deg, #6699ff, #b1cbff, #6699ff);
+  border: 5px solid #567ed0;
+}
+.fightingLabel{
+  background: linear-gradient(45deg, #bb5544, #ff7860, #bb5544);
+  border: 5px solid #813d31;
+}
+.poisonLabel{
+  background: linear-gradient(45deg, #aa5599, #d176bf, #aa5599);
+  border: 5px solid #8d477f;
+}
+.electricLabel{
+  background: linear-gradient(45deg, #ffcc33, #fae090, #ffcc33);
+  border: 5px solid #d1a82c;
+}
+.groundLabel{
+  background: linear-gradient(45deg, #ddbb55, #ffe28a, #ddbb55);
+  border: 5px solid #9e863e;
+}
+.rockLabel{
+  background: linear-gradient(45deg, rgb(151, 59, 2), rgb(173, 139, 118), rgb(151, 59, 2));
+  border: 5px solid rgb(179, 70, 2);
+}
+.iceLabel{
+  background: linear-gradient(45deg, #77ddff, #c7eefb, #77ddff);
+  border: 5px solid #59a2bb;
+}
+.ghostLabel{
+  background: linear-gradient(45deg, #6666bb, #8a8adc, #6666bb);
+  border: 5px solid #464684;
+}
+.steelLabel{
+  background: linear-gradient(45deg, #aaaabb, #d2d2e3, #aaaabb);
+  border: 5px solid #8c8c9a;
+}
+.dragonLabel{
+  background: linear-gradient(45deg, #7766ee, #9a8dec, #7766ee);
+  border: 5px solid #4b3f97;
+}
+.darkLabel{
+  background: linear-gradient(45deg, #775544, #9d7764, #775544);
+  border: 5px solid #4f392e;
+}
+.psychicLabel{
+  background: linear-gradient(45deg, #ff5599, #ff8ebb, #ff5599);
+  border: 5px solid #c23d72;
+}
+.fairyLabel{
+  background: linear-gradient(45deg, #ffaaff, #ffccff, #ffaaff);
+  border: 5px solid #cc86cc;
+}.normalLabel{
+  background: linear-gradient(45deg, #ddcccc, #d4d4d4, #ddcccc);
+  border: 5px solid #ac9f9f;
+}

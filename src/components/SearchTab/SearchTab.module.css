@@ -1,0 +1,32 @@
+.main{
+    border-radius: 10px;
+    background: white;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 5%;
+}
+
+.input{
+    grid-column: 1/2;
+    border: 3px inset gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    border-radius: 10px 0 0 10px;
+}
+
+.button{
+    grid-column: 2/3;
+    border-radius: 0 10px 10px 0;
+    background: #d9274b ;
+    border: 5px outset #dc284c ;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.button:hover{
+    background: #d9274b;
+    transform: scale(1.2);
+}

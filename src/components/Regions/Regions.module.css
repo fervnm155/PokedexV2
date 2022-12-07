@@ -1,0 +1,19 @@
+.Region{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.RegionButton{
+    background: #d9274b;
+    border-radius: 10px;
+    color: white;
+    border: 5px inset #b62240;
+    box-shadow: 3px 3px 5px black;
+}
+
+.RegionButton:hover{
+    background: #d9274b;
+    transform: scale(1.2);
+}
