@@ -16,6 +16,7 @@ function App() {
   };
   const selectedRegion = (region) => {
     console.log(region);
+    setPkName("");
     setRegion({ limit: region.limit, skip: region.skip });
   };
   return (
