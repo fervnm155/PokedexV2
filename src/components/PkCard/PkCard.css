@@ -151,7 +151,16 @@
 }
 
 .shiny {
-    background: linear-gradient(-45deg, #00d9ff, #16fdd7, #04ff9b, #33ff00, #80ff00, 
+    background: linear-gradient(45deg, #00d9ff, #16fdd7, #04ff9b, #33ff00, #80ff00, 
     #c3ff00, #fff, #d0ff00, #ffe100, #ff9100, #ff1100, #ff00aa, #ff00ea);
+    border: 5px solid rgba(255, 255, 255, 0.809)
+    /* border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+    border-image: linear-gradient(to bottom, white, black) 1 1;
+    clip-path: inset(0% 0% 0% 0% round 10px);
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.657); */
+    /* border-image: linear-gradient(45deg, #00d9ff, #16fdd7, #04ff9b, #33ff00, #80ff00, 
+    #c3ff00, #d0ff00, #ffe100, #ff9100, #ff1100, #ff00aa, #ff00ea ) 10; */
     /* background: linear-gradient(-45deg, #fff3b3, #ffd700, #716000, #fff3b3, #ffd700, #716000); */
 }

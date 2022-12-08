@@ -2,6 +2,7 @@ import classes from "./Regions.module.css";
 
 const Regions = (props) => {
   const setCurrentRegion = (event) => {
+    event.preventDefault();
     switch (event.target.value) {
       case "1":
         props.onSelectedRegion({

@@ -20,7 +20,7 @@ function App() {
   };
   return (
     <div className={classes.app}>
-      <h1 className={classes.pokedexTitle}>Pequeñita</h1>
+      <h1 className={classes.pokedexTitle}>Pokédex</h1>
       <div className={classes.main}>
         <SearchTab onBusqueda={Busqueda} />
         <Regions onSelectedRegion={selectedRegion} />
