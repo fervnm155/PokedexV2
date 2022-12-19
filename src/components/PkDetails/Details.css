@@ -199,6 +199,7 @@
         flex-direction: column;
     }
     .detData{
+        width: 100%;
         display: flex;
         flex-direction: column;
     }
