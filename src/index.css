@@ -15,3 +15,21 @@ code {
 html {
   font-size: 62.5%;
 }
+
+@media screen and (max-width: 480px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html{
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 60%;
+  }
+}

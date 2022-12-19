@@ -17,3 +17,23 @@
     background: #d9274b;
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 480px) {
+    .Region {
+        width: 100%;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Region {
+        width: 100%;
+        gap: 0;
+        /* justify-content: center;
+        align-items: center; */
+        flex-direction: column;
+    }
+    .RegionButton{
+        transform: scale(0.7);
+    }
+}

@@ -17,6 +17,36 @@
   grid-template-rows: 100px 1fr 100px;
 }
 
+@media screen and (max-width: 480px) {
+  .app{
+    text-align: center;
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .app{
+    text-align: center;
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .app{
+    text-align: center;
+    width: 100%;
+  }
+  .main{
+    width: 100%;
+  }
+}
+
 .pokedexTitle{
   grid-column: 2/3;
   font-family: 'Pokemon Solid', sans-serif;
@@ -31,6 +61,7 @@
   -webkit-text-fill-color: rgb(255, 230, 0);
   -webkit-text-stroke: 1px blue;
   letter-spacing: 2px;
+  width: 100%;
 }
 
 .main {
@@ -40,8 +71,11 @@
   height: 100%;
   border-radius: 10px;
   background: linear-gradient(-45deg, #16a3dbd4, #8ac4dbd4, #16a3dbd4);
-  display: grid;
+  /* display: grid;
   grid-template-rows: 5rem 1fr;
+  grid-template-columns: 1fr; */
+  display: flex;
+  flex-direction: column;
   padding: 1%;
   border: 10px inset #b62240;
 }
