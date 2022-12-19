@@ -179,74 +179,68 @@
     justify-self: center;
 }
 
-/* .grassLabel{
-    background: linear-gradient(45deg, rgb(63, 144, 63), rgb(123, 145, 123), rgb(63, 144, 63));
-    border: 5px solid rgb(83, 190, 83);
-}
-.fireLabel{
-    background: linear-gradient(45deg, rgb(171, 0, 0), rgb(152, 121, 121), rgb(171, 0, 0));
-    border: 5px solid rgb(179, 5, 5);
-}
-.waterLabel{
-    background: linear-gradient(45deg, rgb(0, 118, 186), rgb(137, 160, 174), rgb(0, 118, 186));
-    border: 5px solid rgb(1, 128, 202);
-}
-.bugLabel{
-    background: linear-gradient(45deg, rgb(160, 206, 95), rgb(184, 202, 157), rgb(160, 206, 95));
-    border: 5px solid rgb(166, 215, 99);
-}
-.flyingLabel{
-    background: linear-gradient(45deg, rgb(87, 198, 203), rgb(161, 201, 203), rgb(87, 198, 203));
-    border: 5px solid rgb(97, 219, 226);
-}
-.fightingLabel{
-    background: linear-gradient(45deg, rgba(194, 52, 0, 0.913), rgba(189, 150, 136, 0.913), rgba(194, 52, 0, 0.913));
-    border: 5px solid rgba(213, 66, 12, 0.913);
-}
-.poisonLabel{
-    background: linear-gradient(45deg, rgb(97, 0, 187), rgb(145, 114, 175), rgb(97, 0, 187));
-    border: 5px solid rgb(105, 13, 191);
-}
-.electricLabel{
-    background: linear-gradient(45deg, rgb(207, 189, 49), rgb(208, 202, 158), rgb(207, 189, 49));
-    border: 5px solid rgb(225, 205, 53);
-}
-.groundLabel{
-    background: linear-gradient(45deg, rgb(213, 136, 2), rgb(191, 169, 131), rgb(213, 136, 2));
-    border: 5px solid rgb(225, 149, 18);
-}
-.rockLabel{
-    background: linear-gradient(45deg, rgb(151, 59, 2), rgb(153, 121, 101), rgb(151, 59, 2));
-    border: 5px solid rgb(179, 70, 2);
-}
-.iceLabel{
-    background: linear-gradient(45deg, rgb(87, 172, 174), rgb(162, 195, 195), rgb(87, 172, 174));
-    border: 5px solid rgb(71, 139, 140);
-}
-.ghostLabel{
-    background: linear-gradient(45deg, rgb(152, 75, 246), rgb(216, 191, 246), rgb(152, 75, 246));
-    border: 5px solid rgb(152, 75, 246);
-}
-.steelLabel{
-    background: linear-gradient(45deg, rgb(113, 113, 113), rgb(205, 205, 205), rgb(113, 113, 113));
-    border: 5px solid rgb(91, 91, 91);
-}
-.dragonLabel{
-    background: linear-gradient(45deg, rgb(123, 110, 202), rgb(169, 165, 195), rgb(123, 110, 202));
-    border: 5px solid rgb(74, 0, 164);
-}
-.darkLabel{
-    background: linear-gradient(45deg, rgb(0, 4, 77), rgb(178, 178, 178), rgb(0, 4, 77));
-    border: 5px solid rgb(10, 14, 73),;
-}
-.psychicLabel{
-    background: linear-gradient(45deg, rgb(186, 108, 215), rgb(204, 186, 210), rgb(186, 108, 215));
-    border: 5px solid rgb(162, 96, 186);
-}
-.fairyLabel{
-    background: linear-gradient(45deg, rgb(202, 94, 217), rgb(209, 180, 213), rgb(202, 94, 217));
-    border: 5px solid rgb(181, 87, 194);
-}.normalLabel{
-    background: linear-gradient(45deg, rgb(156, 156, 156), rgb(220, 220, 220), rgb(156, 156, 156));
-    border: 5px solid rgb(131, 131, 131);
-} */
+@media screen and (max-width: 480px) {
+    .pkCardDetails{
+        width: 100%;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .detailsImg{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        align-content: center;
+        background: transparent;
+    }
+    .data{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .detData{
+        display: flex;
+        flex-direction: column;
+    }
+    .piplupImg{
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .pkCardDetails{
+        width: 90%;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .detailsImg{
+        width: 100%;
+        border-radius: 10px 10px 0 0;
+        align-content: center;
+        background: lightslategray;
+        border: 5px solid black;
+    }
+    .data{
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .pkCardDetails{
+        width: 90%;
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .detailsImg{
+        border-radius: 10px 10px 0 0;
+    }
+    .data{
+        width: 95%;
+        border-radius: 0 0 10px 10px;
+    }
+  }
